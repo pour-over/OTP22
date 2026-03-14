@@ -122,7 +122,7 @@ Mailed packages to some players contain **512-byte random blobs** labeled as "Sh
 - Firmware for the MXP20 processor
 - Encrypted messages requiring an unidentified key
 
-See [puzzles/unsolved/index.md](../../puzzles/unsolved/index.md).
+See [puzzles/unsolved/index.md](../../../puzzles/unsolved/index.md).
 
 ---
 

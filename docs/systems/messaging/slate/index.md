@@ -87,4 +87,4 @@ Slate messages are archived on otp22.org from January 2024 onward. Earlier messa
 
 The Nashville, TN drop (2024) contained a *Slate Deposits* book with numbers that were **not accepted by any known decryption method**. The numbers in the Nashville book don't match any identified Slate code response, Flare Pepper Kitchen input, or Path Controller format.
 
-This is an open puzzle. See [puzzles/unsolved/index.md](../../puzzles/unsolved/index.md).
+This is an open puzzle. See [puzzles/unsolved/index.md](../../../puzzles/unsolved/index.md).

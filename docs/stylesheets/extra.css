@@ -1,0 +1,165 @@
+/* OTP22 Archive — Terminal Aesthetic */
+
+:root {
+  --otp-green: #00ff41;
+  --otp-amber: #ffb300;
+  --otp-dim: #004d1a;
+}
+
+/* Monospace everywhere */
+body, .md-content {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation */
+.md-nav__title {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.05em;
+}
+
+/* Headers get a terminal-green left border */
+.md-content h1 {
+  border-left: 4px solid var(--otp-green);
+  padding-left: 0.6em;
+  color: var(--otp-green);
+  font-family: 'Courier New', Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.md-content h2 {
+  border-left: 3px solid var(--otp-amber);
+  padding-left: 0.5em;
+  color: var(--otp-amber);
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.05em;
+}
+
+.md-content h3 {
+  color: #7ecfff;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  border: 1px solid #1a4a1a;
+  font-size: 0.82em;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: #0d2b0d;
+  color: var(--otp-green);
+  border-bottom: 1px solid var(--otp-green);
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.05em;
+}
+
+.md-typeset table:not([class]) tr:hover {
+  background-color: #0a1f0a;
+}
+
+/* Code blocks */
+.md-typeset code {
+  background-color: #0a1f0a;
+  color: var(--otp-green);
+  border: 1px solid #1a4a1a;
+  font-size: 0.9em;
+  padding: 0.1em 0.4em;
+  border-radius: 2px;
+}
+
+.md-typeset pre > code {
+  background-color: #050f05;
+  color: var(--otp-green);
+  border: none;
+  padding: 0;
+}
+
+.md-typeset pre {
+  background-color: #050f05;
+  border: 1px solid #1a4a1a;
+  border-left: 3px solid var(--otp-green);
+}
+
+/* Links */
+.md-typeset a {
+  color: var(--otp-amber);
+  text-decoration: none;
+}
+
+.md-typeset a:hover {
+  color: var(--otp-green);
+  text-decoration: underline;
+}
+
+/* Site header */
+.md-header {
+  background-color: #050f05;
+  border-bottom: 1px solid var(--otp-green);
+}
+
+.md-header__title {
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--otp-green) !important;
+}
+
+/* Sidebar */
+.md-sidebar {
+  background-color: #060e06;
+}
+
+.md-nav__item--active > .md-nav__link {
+  color: var(--otp-green);
+}
+
+/* Horizontal rules */
+.md-typeset hr {
+  border-color: #1a4a1a;
+}
+
+/* Blockquotes */
+.md-typeset blockquote {
+  border-left: 3px solid var(--otp-amber);
+  background-color: #0a1a0a;
+  color: #aaa;
+}
+
+/* Search */
+.md-search__input {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Footer */
+.md-footer {
+  background-color: #050f05;
+  border-top: 1px solid #1a4a1a;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.75em;
+  color: #4a7a4a;
+}
+
+/* Blinking cursor effect on h1 after text */
+.md-content article h1::after {
+  content: '█';
+  animation: blink 1.2s step-end infinite;
+  margin-left: 4px;
+  font-size: 0.8em;
+  opacity: 0.7;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 0.7; }
+  50% { opacity: 0; }
+}
+
+/* Status badges in tables */
+.md-typeset strong {
+  color: var(--otp-green);
+}
+
+/* Warning/note callouts */
+.md-typeset .admonition {
+  border-left-color: var(--otp-amber);
+}

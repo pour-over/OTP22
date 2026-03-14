@@ -1,0 +1,101 @@
+site_name: OTP22 Archive
+site_description: The definitive knowledge repository for the OTP22 alternate reality game (2011–present)
+site_url: https://otp22.netlify.app
+repo_url: https://github.com/pour-over/OTP22
+repo_name: pour-over/OTP22
+
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: teal
+    accent: light green
+  font:
+    text: false
+    code: false
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - tables
+  - toc:
+      permalink: true
+      title: On this page
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.details
+  - attr_list
+
+nav:
+  - Home: README.md
+  - Timeline: TIMELINE.md
+  - In Memory of Andrew Filer: ANDREW_FILER_MEMORIAL.md
+
+  - Lore:
+    - Characters: lore/characters/index.md
+    - Organizations:
+      - Emtanon Ltd: lore/organizations/emtanon.md
+      - Marine Org: lore/organizations/marine-org.md
+      - WORM / MLPL: lore/organizations/worm-mlpl.md
+    - Events: lore/events/index.md
+    - Places: lore/places/index.md
+
+  - Systems:
+    - Phone Numbers:
+      - Original Run (2012–2016): systems/phone-numbers/original-run/index.md
+      - Revival (2023+): systems/phone-numbers/revival/index.md
+    - Agent Codes: systems/agent-codes/index.md
+    - Terminals: systems/terminals/index.md
+    - Messaging:
+      - XORFS: systems/messaging/xorfs/index.md
+      - Iris: systems/messaging/iris/index.md
+      - Slate Messages: systems/messaging/slate/index.md
+      - Message Desk: systems/messaging/message-desk/index.md
+    - Web:
+      - Emtanon Portal: systems/web/emtanon-portal/index.md
+    - Protocols:
+      - ABISM: systems/protocols/abism/index.md
+      - OTP / XOR: systems/protocols/otp-xor/index.md
+      - SSTV: systems/protocols/sstv/index.md
+      - Other Protocols: systems/protocols/other-protocols/index.md
+
+  - Drops:
+    - Original Run (2012–2016): drops/original-run/index.md
+    - Revival (2023+): drops/revival/index.md
+    - drawbars Collection: drops/drawbars-collection/index.md
+
+  - Books:
+    - Physical Books: books/physical-books/index.md
+    - ExcitingBooks Catalog: books/exciting-books/catalog.md
+
+  - Puzzles:
+    - Unsolved: puzzles/unsolved/index.md
+    - Decoding Techniques: puzzles/techniques.md
+
+  - Meta:
+    - Production Analysis: meta/production-analysis.md
+    - Shadytel Connection: meta/shadytel-connection.md
+    - Community History: meta/community-history.md
+
+  - Sources: sources/external-references.md

@@ -73,4 +73,4 @@ Agent code `17003` text — "TURN THE POTS WITH SCREW DRIVER UNTIL LED LIGHTS UP
 - Are there complete, undecoded ABISM transmissions from the original run that haven't been processed?
 - What did Robert Bramble mean when he said ABISM was a channel to reach him?
 
-See [puzzles/unsolved/index.md](../../puzzles/unsolved/index.md) for current status.
+See [puzzles/unsolved/index.md](../../../puzzles/unsolved/index.md) for current status.

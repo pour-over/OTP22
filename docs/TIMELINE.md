@@ -250,5 +250,5 @@ OTP22 goes silent. The agent systems stop responding. The community disperses. T
 
 ---
 
-*For story-focused narrative arc, see [lore/narrative-timeline.md](lore/narrative-timeline.md).*
+*For story-focused narrative arc, see [lore/characters/index.md](lore/characters/index.md).*
 *For drop-specific timeline, see [drops/original-run/index.md](drops/original-run/index.md) and [drops/revival/index.md](drops/revival/index.md).*
