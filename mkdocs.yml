@@ -98,4 +98,25 @@ nav:
     - Shadytel Connection: meta/shadytel-connection.md
     - Community History: meta/community-history.md
 
-  - Sources: sources/external-references.md
+  - Sources:
+    - External References: sources/external-references.md
+    - 303.sashahart.net Mirror:
+      - Index: sources/wiki-mirror/sashahart/README.md
+      - Story Timeline: sources/wiki-mirror/sashahart/story.md
+      - Drops Index: sources/wiki-mirror/sashahart/drops.md
+      - Physical Objects: sources/wiki-mirror/sashahart/objects.md
+      - Data Files: sources/wiki-mirror/sashahart/files.md
+      - Book Covers (All 275+): sources/wiki-mirror/sashahart/book-covers.md
+      - External Links: sources/wiki-mirror/sashahart/links.md
+      - Messages:
+        - 18xxx OTP Decoded: sources/wiki-mirror/sashahart/messages/18xxx.md
+        - Robbybox (50565732): sources/wiki-mirror/sashahart/messages/robbybox.md
+        - ABISM Protocol: sources/wiki-mirror/sashahart/messages/abism.md
+        - SHIP Coordinates: sources/wiki-mirror/sashahart/messages/ship.md
+        - QX Query System: sources/wiki-mirror/sashahart/messages/qx.md
+        - SSTV Images: sources/wiki-mirror/sashahart/messages/sstv.md
+        - AS27 Broadcasts: sources/wiki-mirror/sashahart/messages/as27.md
+        - 16xxx Agent Voicemail: sources/wiki-mirror/sashahart/messages/16xxx.md
+        - 2+ (Code 22 Family): sources/wiki-mirror/sashahart/messages/2plus.md
+        - Code 22 Evolution: sources/wiki-mirror/sashahart/messages/22-changes.md
+        - Other Messages: sources/wiki-mirror/sashahart/messages/other.md
